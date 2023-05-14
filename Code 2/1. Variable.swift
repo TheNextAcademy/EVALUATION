@@ -21,10 +21,25 @@
 
 //----------------------------PROBLEM 3-----------------------------------
 /*
- 1. Create a variable called boyName and store the name "Jack"
- 2. Create another variable called girlName and store the name "Jill"
- 3. Switch the names so that when the code below is executed the names are switched.
+ 1. A variable called firstNumber has been created for you and stores a random integer.
+ 2. A variable called secondNumber has been created for you and stores another random integer.
+ 3. Switch the value stored in firstNumber with the value in secondNumber.
+
+
+Sample output
+Before Switch firstNumber = 1, secondNumber = 7
+After Switch firstNumber = 7, secondNumber = 1
 */
-//Do not change the code in the lines below
-print("The variable boyName now has \(boyName)")
-print("The variable girlName now has \(girlName)")
+
+var firstNumber = Int.random(in: 1...10)
+var secondNumber = Int.random(in: 1...10)
+
+//Do not change the print statement below
+print("Before Switch firstNumber = \(firstNumber), secondNumber = \(secondNumber)")
+
+//Add your code below
+
+
+//Do not change the print statement below
+print("After Switch firstNumber = \(firstNumber), secondNumber = \(secondNumber)")
+
